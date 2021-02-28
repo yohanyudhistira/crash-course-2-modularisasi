@@ -1,6 +1,6 @@
 import requests
 
-url = 'https://det ik.com'
+url = 'https://detik.com'
 try:
     response = requests.get(url)
     if response.status_code == 200:
